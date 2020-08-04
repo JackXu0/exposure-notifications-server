@@ -36,4 +36,5 @@ steps:
       --platform "managed" \
       --region "${_REGION}" \
       --image "gcr.io/${PROJECT_ID}/github.com/google/exposure-notifications-server/cmd/${_SERVICE}:${_TAG}" \
-      --no-traffic
+      # TODO: 
+      # --no-traffic

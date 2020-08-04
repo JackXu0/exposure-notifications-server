@@ -1,16 +1,25 @@
 {
   "temporaryExposureKeys": [
     {
-      "key": "Fy/EgOWYSQw0F3YEM5sVQw==",
-      "rollingStartNumber": 2649980,
-      "rollingPeriod": 1,
-      "transmissionRisk": 8
+      "key": "c/A0+5n2GxW6hMkZXzLLNg==",
+      "rollingStartNumber": 2659055,
+      "rollingPeriod": 49,
+      "transmissionRisk": 1
+
+
     },
     {
-      "key": "K2MFOsSDI43hdhaehh89zQ==",
-      "rollingStartNumber": 2649866,
-      "rollingPeriod": 114,
+      "key": "dede0kWh7xAbmIIruIyHxA==",
+      "rollingStartNumber": 2658954,
+      "rollingPeriod": 11,
       "transmissionRisk": 1
+
+
     }
   ]
 }
+
+String destFilePath = "/storage/emulated/0/Android/data/periodic_key.zip";
+File file = new File(destFilePath);
+
+gcloud sql connect contact-tracing-demo --user=root
